@@ -5,10 +5,18 @@
  *
  * Made By MaterializeCSS.com
  */
-
+html {
+  background: #020609 url("../img/dark_leather.png") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+nav {
+  background-color: transparent;
+}
 body {
-  color: #7D816F;
-  background: #020609;
+  color: #bec0d1;
+
   font-family: 'Rubik Vinyl', cursive;
 }
 h1, h2, h3, h4 {
@@ -22,11 +30,11 @@ h1, h3 {
   color: #ccc;
 }
 h2, h5, button {
-  color: #7D816F;
+  color: #6f7180;
 }
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: #c5c7dd;
   font-family: "Comfortaa", cursive;
 }
 
