@@ -79,22 +79,6 @@ footer {
 footer .container {
   margin-right: auto;
 }
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
-
 .icon-block {
   padding: 0 15px;
 }
@@ -123,3 +107,26 @@ footer.page-footer {
   width: 100%;
   height: 100%;
 }
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  .responsive-iframe {
+    border: 1px solid #f0c;
+    overflow: auto;
+height: 1200px;
+padding-top: 0px;
+
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
